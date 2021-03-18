@@ -1,5 +1,4 @@
 const e = React.createElement;
-const reactRoot = document.getElementById('root');
 const cardsData = [
     {
         media: '../assets/demo1.png',
@@ -18,11 +17,7 @@ const cardsData = [
     }
 ]
 
-cardsData.forEach(card => {
-    let div = document.createElement('div');
+const cards = cardsData.map(card => e(Card, card))
 
-    reactRoot.append(div);
-
-    ReactDOM.render(e(Card, card), div);
-});
+ReactDOM.render(cards, document.getElementById('root'));
 
