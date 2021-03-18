@@ -1,6 +1,4 @@
-`#react.js-intro` `#assembler-school` `#master-in-software-engineering`
-
-# Assembler School: React.js Intro Workshop <!-- omit in toc -->
+# React.js Intro Workshop <!-- omit in toc -->
 
 In this workshop you will learn how to render components in ah HTML file.
 
@@ -22,7 +20,7 @@ In this workshop you will learn how to render components in ah HTML file.
 First, you will need to clone the repo:
 
 ```bash
-$ git clone https://github.com/assembler-school/reactjs-intro-workshop-project-1
+$ git clone https://github.com/VictorGreco/reactjs-intro
 ```
 
 ## Contents and Branches Naming Strategy
